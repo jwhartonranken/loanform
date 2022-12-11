@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Loan App Home</title>
+</head>
+<body class="loanHomePage">
+    <h1>Take Out a Loan</h1>
+    <br>
+    <form action="loanresult" method="POST" class="loanForm">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" name="firstName">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" name="lastName">
+        </div>
+        <div class="form-group">
+            <label for="loanAmount">Loan Amount in Dollars</label>
+            <input type="number" class="form-control" name="loanAmount">
+        </div>
+        <select class="form-control" name='loanReason'>
+            <option>Loan Reason</option>
+            <option>Home</option>
+            <option>Boat</option>
+            <option>Car</option>
+            <option>Motorcycle</option>
+            <option>Other</option>
+        </select>
+        <br>
+        <div class="form-group">
+            <label for="interestRate">Interest Rate (Between 1 and 10%)</label>
+            <input type="number" class="form-control" name="interestRate" step="0.01">
+        </div>
+        <select class="form-control" name="loanYears">
+            <option>Loan Years</option>
+            <option>5</option>
+            <option>10</option>
+            <option>25</option>
+            <option>30</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Apply</button>
+    </form>
+</body>
+</html>

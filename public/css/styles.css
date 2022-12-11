@@ -1,0 +1,32 @@
+.loanHomePage {
+    align-items: center;
+}
+
+.loanForm {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.loanForm div {
+    padding-bottom: 1rem;
+}
+
+.loanHomePage h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.loanForm button {
+    margin-top: 2rem;
+}
+
+.loanResultPage {
+    text-align: center;
+    padding: 3rem;
+}
+
+.middleSmaller{
+    width: 50%;
+    padding: 2rem;
+    margin: 0 auto;
+}

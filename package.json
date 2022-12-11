@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "name": "loan_app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js",
+    "devStart" : "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
